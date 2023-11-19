@@ -1,0 +1,132 @@
+.membership-content {
+    text-align: center;
+
+}
+
+.membership-content img {
+
+    width: 57%;
+    height: 250px;
+    position: relative;
+    left: 8.5px;
+    object-fit: cover;
+    border-radius: 24px;
+
+
+}
+
+.prime-membership h2 {
+    text-align: center;
+}
+
+.left-membership {
+    width: 28%;
+    height: 48vh;
+
+}
+
+.right-membership {
+    width: 28%;
+    height: 48vh;
+
+}
+
+.four-membership-card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+
+}
+
+.left-membership img {
+    width: 90%;
+    height: 420px;
+}
+
+.img img {
+
+    height: 353px;
+}
+
+#menuImg {
+    height: 353px;
+}
+
+@media (max-width:580px) {
+    .membership-content img {
+        border-radius: 18px;
+        width: 247px;
+
+        height: 163px;
+        position: relative;
+
+    }
+
+    .two-container {
+        position: relative;
+        top: 124vh;
+
+
+
+        z-index: 1;
+
+    }
+
+    .four-membership-card {
+        flex-direction: column;
+        gap: 11vw;
+    }
+
+    .left-membership {
+        height: 45vh;
+
+
+    }
+
+    .left-membership .img img {
+        position: relative;
+        width: 247px;
+        height: 163px;
+        right: 9vw;
+
+    }
+
+    #menuImg {
+        width: 247px;
+        height: 163px;
+        position: relative;
+        right: 9vw;
+
+    }
+
+    .member-content {
+        border-radius: 10px;
+
+    }
+
+    .membership-content {
+        border-radius: 10px;
+
+    }
+
+    .member-content button {
+        width: 37vw;
+
+    }
+
+    .imgd img {
+        height: 163px;
+        position: relative;
+        width: 247px;
+        left: -10vw;
+    }
+
+    .get-flex {
+        gap: 1.1999999999999993vw;
+
+    }
+
+}

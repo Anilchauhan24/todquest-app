@@ -1,0 +1,38 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 13vw;
+}
+
+header input {
+    width: 23vw;
+    text-align: center;
+    height: 5vh;
+    border-radius: 10px;
+
+}
+
+header button {
+    width: 10vw;
+    border-radius: 10px;
+    height: 5vh;
+    background: red;
+}
+
+@media (max-width:580px) {
+    header {
+        flex-direction: column;
+        gap: 0vw;
+    }
+
+    header input {
+        width: 42vw;
+    }
+
+    header button {
+        width: 42vw;
+    }
+
+}

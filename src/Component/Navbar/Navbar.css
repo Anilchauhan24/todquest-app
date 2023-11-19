@@ -1,0 +1,26 @@
+nav {
+    height: 6vh;
+    background: #12123e;
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center; */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 3vw;
+    align-content: center;
+    padding: 10px;
+
+}
+
+nav ul li {
+    color: #fff;
+}

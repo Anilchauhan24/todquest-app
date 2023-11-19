@@ -1,0 +1,82 @@
+.footer {
+    position: relative;
+    top: 77vh;
+
+}
+
+.fotter-color {
+    background-color: #12123e;
+    color: #fff;
+}
+
+.footer-content-left {
+    width: 19vw;
+
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 0.2vw;
+
+
+}
+
+.footer-content-right {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0vw;
+    align-items: stretch;
+
+}
+
+.footer-link {
+    list-style: none;
+}
+
+.iconsbutton .fa-brands {
+    font-size: 2vw;
+
+}
+
+#appstore {
+    font-size: 12px;
+    position: absolute;
+}
+
+.store-button {
+    width: 120px;
+    height: 31px;
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+
+}
+
+@media (max-width:580px) {
+    .footer {
+        top: 248vh;
+    }
+
+    .footer-content {
+        align-items: center;
+
+    }
+
+    .footer-content-left {
+        width: 65vw;
+    }
+
+    .footer-content-right {
+        flex-direction: column;
+    }
+
+    .iconsbutton .fa-brands {
+        font-size: 6vw;
+    }
+
+}

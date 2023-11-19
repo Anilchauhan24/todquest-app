@@ -1,0 +1,167 @@
+.offerwise-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1vw;
+
+}
+
+.box1 {
+    width: 200px;
+    height: 230px;
+    background: rgb(233, 224, 224);
+    text-align: center;
+}
+
+.box1 .para {
+    color: green;
+    font-weight: 600;
+}
+
+.box1 img {
+    width: 100px;
+    height: 50px;
+}
+
+.offer-cards {
+    position: relative;
+    left: 21vw;
+    width: 60%;
+
+}
+
+.box1.active {
+    transform: translateX(0);
+    /* Show active slide */
+}
+
+
+
+
+.offer-cards-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+    transition: transform 0.5s ease;
+}
+
+.offer-cards-main>.box1 button {
+    width: 7vw;
+    height: 4vh;
+    background: #ff003f;
+    border-radius: 5px;
+
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: gray;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+
+}
+
+.indicator.active {
+    background-color: black;
+
+}
+
+.dealsOfDay {
+    text-align: center;
+}
+
+.dealsOfDayContent {
+    position: relative;
+    /* left: 2vw;
+    width: 60%; */
+
+}
+
+/* for dealsOfDayContent css proptey */
+
+.boxOne {
+    width: 200px;
+    height: 160px;
+    background: rgb(233, 224, 224);
+    text-align: center;
+}
+
+.boxOne img {
+    width: 100px;
+    height: 40px;
+}
+
+
+.boxOne button {
+    width: 7vw;
+    height: 4vh;
+    background: #ff003f;
+    border-radius: 5px;
+}
+
+.inside-content {
+    /* display: grid;
+    align-content: center;
+    justify-items: center;
+    align-items: start;
+    grid-template-columns: auto auto auto auto;
+    gap: 2vw;
+    justify-content: start; */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+    flex-wrap: wrap;
+
+
+
+
+}
+
+@media (max-width:580px) {
+
+    .offerwise-list ul {
+        justify-content: flex-start;
+        align-items: center;
+        list-style: none;
+        gap: 7vw;
+
+    }
+
+    .box1 {
+        border-radius: 10px;
+    }
+
+    .offer-cards-main>.box1 button {
+        width: 37vw;
+    }
+
+    .boxOne {
+        border-radius: 10px;
+
+    }
+
+    .boxOne button {
+        width: 37vw;
+
+    }
+
+
+
+}

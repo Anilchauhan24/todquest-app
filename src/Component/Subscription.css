@@ -1,0 +1,90 @@
+.main-subscription {
+
+    position: relative;
+    top: 60vh;
+    gap: 3vw;
+    background-color: #e1dfdf;
+
+}
+
+.container-main {
+    position: relative;
+    width: 56%;
+    height: 52vh;
+    background: #ffffff;
+    left: 21vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box {
+    width: 80%;
+    height: 350px;
+
+}
+
+#subscribe {
+    width: 350px;
+    height: 300px;
+}
+
+.right-content-box h2 {
+    font-size: 3vw;
+}
+
+.right-content-box {
+    text-align: center;
+
+}
+
+.right-content-box>input {
+    width: 28vw;
+    height: 6vh;
+    border-radius: 14px;
+    text-align: center;
+
+}
+
+.right-content-box>button {
+    width: 10vw;
+    height: 6vh;
+    border-radius: 8px;
+    background: red;
+    position: relative;
+    top: 2vh;
+}
+
+@media (max-width:580px) {
+    .main-subscription {
+        top: 223vh;
+        z-index: 1;
+    }
+
+    #subscribe {
+        width: 247px;
+        height: 163px;
+
+    }
+
+    .container-main {
+        width: 66%;
+        flex-direction: column;
+        height: 70vh;
+    }
+
+    .right-content-box h2 {
+        font-size: 5vw;
+    }
+
+    .right-content-box>input {
+        width: 60vw;
+    }
+
+    .right-content-box>button {
+        width: 36vw;
+        top: 3vh;
+    }
+}

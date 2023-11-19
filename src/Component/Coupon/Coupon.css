@@ -1,0 +1,243 @@
+.coupon-container {
+    position: relative;
+    top: 63vh;
+}
+
+.coupon-containers {
+    text-align: center;
+}
+
+.coupon-box1 {
+    width: 17vw;
+    height: 26vh;
+    /* border: 1px solid gray; */
+    background-color: aliceblue;
+
+}
+
+.coupon-container-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5vw;
+    text-align: center;
+}
+
+.icon-box {
+    width: 70px;
+    height: 70px;
+    background-color: pink;
+    text-align: center;
+    position: relative;
+    left: 6vw;
+    border-radius: 41px;
+
+}
+
+.icons {
+
+    font-size: 2vw;
+    position: relative;
+    top: 2.5vh;
+}
+
+.coupon-btn {
+    border-style: none;
+    background: none;
+    cursor: pointer;
+}
+
+.coupon-image-background {
+    top: 6vh;
+    position: relative;
+    width: 55%;
+    background-color: #c7a596;
+    left: 22vw;
+
+}
+
+.image-coupon img {
+    width: 400px;
+    opacity: 0.5;
+    border-radius: 31px;
+
+}
+
+.coupon-contentpara {
+    width: 25%;
+    height: 400px;
+}
+
+.coupon-contentpara h2 {
+    font-size: 2vw;
+}
+
+.coupon-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+}
+
+.small-icons {
+    width: 151px;
+    height: 44px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* gap: 11px; */
+    background: #fff;
+    border-radius: 20px;
+
+}
+
+.ab .fa-apple {
+    font-size: 3vw;
+}
+
+.popular-category {
+    position: relative;
+    top: 7vh;
+
+}
+
+.popular-category-right-content {
+    text-align: center;
+    width: 41vw;
+}
+
+.popular-category-right-content h2 {
+    position: relative;
+    top: 2vh;
+    right: 11vw;
+}
+
+.popu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.category-image {
+    position: relative;
+
+    top: 3vh;
+
+
+}
+
+.category-image img {
+    width: 219px;
+    height: 48vh;
+
+
+    top: 13vh;
+
+
+}
+
+
+
+table,
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+@media (max-width:580px) {
+
+    .coupon-container {
+        top: 227vh;
+
+
+    }
+
+    .coupon-box1 {
+
+        width: 63vw;
+        height: 35vh;
+        border-radius: 10px;
+
+    }
+
+    .icon-box {
+        left: 22vw;
+
+    }
+
+    .icons {
+
+        font-size: 6vw;
+    }
+
+    .coupon-image-background {
+        width: 100%;
+        left: 0vw;
+        border-radius: 19px;
+
+    }
+
+    .image-coupon img {
+        width: 243px;
+        height: 167px;
+        opacity: 1;
+    }
+
+    .coupon-contentpara {
+        width: 50%;
+
+        height: 247px;
+
+
+    }
+
+    .coupon-contentpara h2 {
+        font-size: 6vw;
+
+    }
+
+    .coupon-box {
+
+
+        flex-direction: column;
+    }
+
+    .small-icons {
+        text-align: center;
+    }
+
+    .ab .fa-apple {
+        font-size: 10vw;
+    }
+
+    .popu {
+        flex-direction: column;
+
+    }
+
+    .category-image img {
+        border-radius: 35px;
+
+    }
+
+    .popular-category-right-content {
+
+        width: 100%;
+    }
+
+    .popular-category-right-content h2 {
+        right: 0vw;
+    }
+}

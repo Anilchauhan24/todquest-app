@@ -1,0 +1,40 @@
+.member-content {
+    width: 200px;
+    height: 175px;
+    background: rgb(233, 224, 224);
+    text-align: center;
+}
+
+.member-content img {
+    width: 70px;
+    height: 40 px;
+}
+
+.getFlex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2vw;
+}
+
+.member-content button {
+    width: 7vw;
+    height: 4vh;
+    background: #ff003f;
+    border-radius: 5px;
+
+}
+
+.imgd img {
+    position: relative;
+    height: 353px;
+    left: 1.2vw;
+    width: 91%;
+
+}
+
+/* @media (max-width:580px) {
+    
+} */
